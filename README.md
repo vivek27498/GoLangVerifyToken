@@ -1,3 +1,3 @@
 # GoLangVerifyToken
 
-use nodemon --watch './**/*.go' --signal SIGTERM --exec 'go' run ./main.go
+use nodemon --watch './**/*.go' --exec 'go' run ./main.go 
