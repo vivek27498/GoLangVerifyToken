@@ -67,7 +67,7 @@ func VerifyJwt(req map[string]interface{}) (bool, error) {
 		fmt.Println("clientID found", claims["client_id"].(string))
 		config := Config{
 			Region:          "ap-south-1",
-			CognitoPoolId:   "ap-south-1_oRtfDtZ1P",
+			CognitoPoolId:   "ap-south-1_",
 			CognitoClientId: clientID,
 		}
 		validator := New(&config)
